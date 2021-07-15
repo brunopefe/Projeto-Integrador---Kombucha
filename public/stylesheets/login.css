@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
+
+body {
+  background: rgba(131, 165, 100, 0.9);
+
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.login-content-page {
+  margin-top: 15vh;
+  min-width: 250px;
+  width: auto;
+  flex-grow: 1;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.logo label {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+}
+
+.logo label:hover {
+  color: #ffed4c;
+  transition: 1s;
+}
+
+/*Formulário*/
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+input#email {
+  border-radius: 5px;
+  width: 230px;
+  height: 25px;
+  box-shadow: 0 0 5px #ffed4c;
+}
+
+input#password {
+  border-radius: 5px;
+  height: 25px;
+  box-shadow: 0 0 5px #ffed4c;
+}
+
+button {
+  height: 25px;
+  color: #11998e;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #ffed4c;
+}
+
+button:hover {
+  color: #000;
+  background-color: #ffed4c;
+  font-weight: 700;
+  transition: 1s;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffed4c;
+}
+
+#voltar {
+  align-self: flex-end;
+  color: #ffed4c;
+  font-size: 1.2rem;
+}
+
+footer {
+  position: relative;
+  margin-top: 5vh;
+}
+
